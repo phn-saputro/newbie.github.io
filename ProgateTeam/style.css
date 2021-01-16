@@ -1,0 +1,298 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+  text-decoration: none;
+} 
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container::after, .row::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(img/bg-wrapper.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  height: 720px;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 40px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #064460;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+  text-align: left;
+  color: #4a4a4a;
+}
+
+.wrapper-left{
+  float: left;
+}
+
+.wrapper-right{
+  float: right;
+}
+.logo-wrapper{
+  width: 450px;
+  margin-left: 12px;
+}
+.btn-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.login {
+  background-color: #e3403c;
+  margin-right: 10px;
+}
+
+.register {
+  background-color: #467abc;
+}
+
+.kirim{
+  background-color: #1a7940;
+  float: left;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(50 50 50 / 90%);
+  position :fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  width: 125px;
+  margin-top: 12px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+  float: left;
+  transition: all 0.5s;
+}
+
+.header-right a:hover {
+  background-color: #0449da;
+}
+
+
+/* Tambahkan CSS untuk menu-icon */
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
+
+
+.card-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.card-wrapper {
+	text-align: center;
+}
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h1 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.card {
+  float: left;
+  width: 25%;
+}
+
+.card-icon{
+  position: relative;
+}
+
+.card img{
+  width: 65%;
+  border-radius:12px;
+}
+.card h2{
+  color: #4a4a4a;
+}
+
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.massage-paket{
+  margin-top: 45px;
+}
+
+.massage-paket h3{
+  font-weight: normal;
+  color:#4a4a4a;
+  
+}
+
+.about-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+  height: 420px;
+  float:right;
+}
+.about-section h1{
+  font-size: 40px ;
+}
+.about-section p{
+  text-align: center;
+  font-size:26px ;
+}
+.gam{
+  width: 30%;
+  padding-right: 20px;
+  float: left;
+}
+
+.message {
+  padding: 15px 40px;
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.contact-form{
+	margin-bottom: 10px;
+	
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+.column-left{
+	float: left;
+	width: 33.3%;
+	margin-bottom: 16px;
+	padding: 0 8px;
+}
+.column-right{
+	float: right;
+	width: 40.3%
+	margin-bottom: 16px;
+	margin-right: 40px;
+	display: block;
+}
+
+footer img {
+  width: 110px;
+
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 10px;
+  padding-left: 10px;
+  margin: 0;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: black;
+}
+.copyright{
+  float:right;
+  margin-right: 20px;
+}
